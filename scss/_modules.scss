@@ -13,7 +13,7 @@
         margin-bottom: 16px;
         font-size: 24px;
         font-weight: 600;
-        @include mq(tab){
+        @include mq(tb){
             margin-bottom: 8px;
             font-size: 20px;
             font-weight: 400;
@@ -68,7 +68,8 @@
         color: $textcolor2;
     }
     &--stroke{
-        border: 2px solid $maincolor1;
+        border: 1px solid $maincolor1;
+        background-color: $basecolor1;
         color: $maincolor1;
     }
 }
